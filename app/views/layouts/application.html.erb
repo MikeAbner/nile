@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Nile</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <div id="container">
-    <div id="content">
-      <header>
-        <h1>Nile Bookstore</h1>
-      </header>
-      <%= yield %>
-      <footer>
-        <h6>Amazon Doesn't have a chance!</h6>
-      </footer>
-    </div>
-  </div>
-  <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" %>
-</body>
+  <head>
+    <title>Nile</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
 </html>
