@@ -16,7 +16,7 @@ Amazon has gotten out of control. It's also really old. We need a new app focuse
 
 ## Application Architecture
 
-The backend of the application should be fully functional. 
+The backend of the application should be fully functional and ready to go. 
 
 The data model is pretty basic. The main table is the books table. Each book has many authors through a join table called authors_books. Each book also has many subjects through a join table called books_subjects.
 
@@ -28,7 +28,7 @@ Subjects: Programming, Ruby, Technology
 
 There are 4 endpoints that each return some data in json format.
 
-* /search - This endpoint takes some input in the form "<type>:<term>" and returns a list of books with their associated authors and subjects
+* /search - This endpoint takes some input in the form "&#60;type>&#62;:&#60;term&#62;" and returns a list of books with their associated authors and subjects
 * /by_title - This endpoint takes no input and returns a list of books organized by book title
 * /by_author - This endpoint takes no input and returns a list of books organized by author
 * /by_subject - This endpoint takes no input and returns a list of books organized by subject
