@@ -26,6 +26,8 @@ Title: The Pragmatic Programmer
 Authors: Dave Thomas, Andy Hunt
 Subjects: Programming, Ruby, Technology
 
+You can see a list of the books, subjects, and authors in seeds.rb.
+
 There are 4 endpoints that each return some data in json format.
 
 * /search - This endpoint takes some input in the form "&#60;type&#62;:&#60;term&#62;" and returns a list of books with their associated authors and subjects. So "t:program" would do a search on the books table and find all books that start with "Program" (or "program"...it's case insensitive) and "s:ruby" would find all the subjects that started with "Ruby"
@@ -45,8 +47,6 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 2. Install the bundler gem with "gem install bundler"
 
 3. Run "bundle install" to install Rails and all it's dependencies.
-
-4. Set up the database with "rake db:create" and then "rake db:migrate" and then "rake db:seed"
 
 5. Start your rails app with "rails s"
 
