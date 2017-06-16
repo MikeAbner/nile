@@ -34,7 +34,13 @@ header h1 {
   width: 500px;
 }
 
-#search-results {
+#searches {
+  display: none;
+  text-align: left;
+  width: 960px;
+}
+
+#lists {
   text-align: left;
   width: 960px;
 }
