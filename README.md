@@ -40,49 +40,49 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 ## Setup
 
-1.) First thing to do is to get ruby/rails up and running. On a Mac I recomend using homebrew to install rvm (https://rvm.io/) and then using rvm to install ruby 2.4.0. I can't offer much help for Windows or Linux unfortunately, but there is a one click installer for ruby on windows that might be all you need. (https://rubyinstaller.org/)
+1. First thing to do is to get ruby/rails up and running. On a Mac I recomend using homebrew to install rvm (https://rvm.io/) and then using rvm to install ruby 2.4.0. I can't offer much help for Windows or Linux unfortunately, but there is a one click installer for ruby on windows that might be all you need. (https://rubyinstaller.org/)
 
-2.) Install the bundler gem with "gem install bundler"
+2. Install the bundler gem with "gem install bundler"
 
-3.) Run "bundle install" to install Rails and all it's dependencies.
+3. Run "bundle install" to install Rails and all it's dependencies.
 
-4.) Set up the database with "rake db:create" and then "rake db:migrate" and then "rake db:seed"
+4. Set up the database with "rake db:create" and then "rake db:migrate" and then "rake db:seed"
 
-5.) Start your rails app with "rails s"
+5. Start your rails app with "rails s"
 
-6.) Navigate to http://localhost:3000 and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to /by_title, /by_author, /by_subject to make sure data is being returned.
+6. Navigate to http://localhost:3000 and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to /by_title, /by_author, /by_subject to make sure data is being returned.
 
 ## Requirements
 
-1.) The Nile app is very sparse right now. We need to make it pretty.  There is a mock in the docs directory that will help make Nile beautiful.
+1. The Nile app is very sparse right now. We need to make it pretty.  There is a mock in the docs directory that will help make Nile beautiful.
 
-2.) The three lists of books are empty (Books by Title, Books by Author, Books by Subject).  When the page loads, fetch the data from the backend and display it in the appropriate sections.
+2. The three lists of books are empty (Books by Title, Books by Author, Books by Subject).  When the page loads, fetch the data from the backend and display it in the appropriate sections.
 
-3.) The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed! When that happens you should call the appropriate endpoint and display the results of the search.
+3. The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed! When that happens you should call the appropriate endpoint and display the results of the search.
 
-4.) After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.
+4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.
 
-5.) Write a quick two or three paragraph summary about how you implemented things and why? What tradeoffs did you make. What are some other choices that you could have made?
+5. Write a quick two or three paragraph summary about how you implemented things and why? What tradeoffs did you make. What are some other choices that you could have made?
 
 ## Tips
 
-1.) Feel free to completely rewrite the provided HTML in app/views/home/index.html if you would do something differently.
+1. Feel free to completely rewrite the provided HTML in app/views/home/index.html if you would do something differently.
 
-2.) Feel free to completely rewrite the CSS that is provided in app/assets/stylesheets/home.css.
+2. Feel free to completely rewrite the CSS that is provided in app/assets/stylesheets/home.css.
 
-3.) Don't mess with app/views/layouts/application.html.erb or you might end up deep in the bowels of Rails trying to troubleshoot
+3. Don't mess with app/views/layouts/application.html.erb or you might end up deep in the bowels of Rails trying to troubleshoot
 
-4.) Feel free to add any additional javascript or css files if you want, but know that you might have to fight with Rails alittle to get them working.
+4. Feel free to add any additional javascript or css files if you want, but know that you might have to fight with Rails alittle to get them working.
 
 ## Evaluation
 
 It's always important to know how you are going to be evaluated.  What we are going to look for are pretty straightforward.
 
-1.) Does the layout match the mock as closely as possible? Is the CSS well organized?
+1. Does the layout match the mock as closely as possible? Is the CSS well organized?
 
-2.) Does the Nile application work the way it should based on the Requirements section?
+2. Does the Nile application work the way it should based on the Requirements section?
 
-3.) Is the code well organized and does it follow traditional javascript coding conventions?
+3. Is the code well organized and does it follow traditional javascript coding conventions?
 
 ## Support
 
