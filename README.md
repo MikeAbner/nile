@@ -58,11 +58,11 @@ You can find the stylesheet file in app/assets/stylesheets/home.css.scss.
 
 2. The three lists of books are empty (Books by Title, Books by Author, Books by Subject).  When the page loads, fetch the data from the backend and display it in the appropriate sections.
 
-3. The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed! When that happens you should call the appropriate endpoint and display the results of the search.
+3. The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed. When that happens you should call the appropriate endpoint and display the results of the search.
 
-4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.
+4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search. You don't need to persist the history. 
 
-5. Write a quick two or three paragraph summary about how you implemented things and why? What tradeoffs did you make? What are some other choices that you could have made?
+5. Write a two or three paragraph summary about how you implemented things things, and why. What are some other choices that you could have made? What tradeoffs did you make? 
 
 ## Tips
 
@@ -76,7 +76,7 @@ You can find the stylesheet file in app/assets/stylesheets/home.css.scss.
 
 ## Evaluation
 
-It's always important to know how you are going to be evaluated.  What we are going to look for are pretty straightforward.
+What we are going to look for are pretty straightforward.
 
 1. Does the layout match the mock as closely as possible? Is the CSS well organized?
 
@@ -84,12 +84,12 @@ It's always important to know how you are going to be evaluated.  What we are go
 
 3. Is the code well organized and does it follow traditional javascript coding conventions?
 
-4. Bells and Whistles. If there is time, what were you able to add. For example, the fonts in the mock are located here: https://fonts.google.com/specimen/Noto+Sans and http://fontawesome.io/assets/font-awesome-4.7.0.zip.
+4. Bells and Whistles. If there is time, how can you improve on the bookstore? For example, the fonts in the mock are located here: https://fonts.google.com/specimen/Noto+Sans and http://fontawesome.io/assets/font-awesome-4.7.0.zip. 
 
-5. Your summary statement. Do your choices make sense? Do you explain them well? Are we left with a lot of open questions?
+5. Your summary statement. Are your choices sensible, and well explained?
 
 ## Support
 
-We recognize that there might be questions. Please feel free to email mike@homelight.com to ask for clarifications about the requirements. I'm happy to fill in more detail there. I won't offer any help getting things set up unless you find something specific about the actual backend code that isn't working. There are plenty of resources about getting ruby and rails installed and running. There are also plenty of good guides about the basics of Rails, but you shouldn't need to know much of that to make the frontend shine!
+We recognize that there might be questions. Please feel free to email mike@homelight.com to ask for clarifications about the requirements. I'm happy to fill in more detail there. I won't offer any help getting things set up unless, you find something specific about the actual backend code that isn't working. There are plenty of resources about getting ruby and rails installed and running. There are also plenty of good guides about the basics of Rails, but you shouldn't need to know much of that to make the frontend shine!
 
 
