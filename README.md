@@ -38,7 +38,7 @@ There are 4 endpoints that each return some data in json format.
 The homepage of the app has been pre-configured to load some javascript and css. You should be able to modify those files in place and have the changes reflected on the homepage without any extra work.
 
 You can find the javascript file in app/assets/javascripts/home.js
-You can find the stylesheet file in app/assets/stylesheets/home.css
+You can find the stylesheet file in app/assets/stylesheets/home.css.scss.
 
 ## Setup
 
@@ -50,7 +50,7 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 5. Start your rails app with "rails s"
 
-6. Navigate to http://localhost:3000 and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to /by_title, /by_author, /by_subject to make sure data is being returned.
+6. Navigate to <http://localhost:3000> and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to <http://localhost:300/by_title>, <http://localhost:300/by_author>, <http://localhost:300/by_subject> to see the data being retuned.
 
 ## Requirements
 
@@ -66,13 +66,13 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 ## Tips
 
-1. Feel free to completely rewrite the provided HTML in app/views/home/index.html if you would do something differently.
+1. Feel free to completely rewrite the provided HTML in app/views/home/index.html.erb if you would do something differently.
 
-2. Feel free to completely rewrite the CSS that is provided in app/assets/stylesheets/home.css.
+2. Feel free to completely rewrite the CSS that is provided in app/assets/stylesheets/home.css.scss.
 
 3. Don't mess with app/views/layouts/application.html.erb or you might end up deep in the bowels of Rails trying to troubleshoot
 
-4. Feel free to add any additional javascript or css files if you want, but know that you might have to fight with Rails alittle to get them working.
+4. Feel free to add any additional javascript or css files if you want. You can add them to /app/assets/javascripts/ and /app/assets/stylesheets. Rails can often have issues with adding new files, for css/javascipt. Don't try to fight rails, we won't count all your code in two files against you.
 
 ## Evaluation
 
