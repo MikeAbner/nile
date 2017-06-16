@@ -50,7 +50,7 @@ You can find the stylesheet file in app/assets/stylesheets/home.css.scss.
 
 5. Start your rails app with "rails s"
 
-6. Navigate to <http://localhost:3000> and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to <http://localhost:300/by_title>, <http://localhost:300/by_author>, <http://localhost:300/by_subject> to see the data being retuned.
+6. Navigate to <http://localhost:3000> and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to <http://localhost:3000/by_title>, <http://localhost:3000/by_author>, <http://localhost:3000/by_subject> to see the data being retuned.
 
 ## Requirements
 
