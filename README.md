@@ -60,7 +60,7 @@ You can find the stylesheet file in app/assets/stylesheets/home.css.scss.
 
 3. The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed. When that happens you should call the appropriate endpoint and display the results of the search.
 
-4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search. You don't need to persist the history. 
+4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.  The history doesn't need to be persisted between page reloads.
 
 5. Write a two or three paragraph summary about how you implemented things things, and why. What are some other choices that you could have made? What tradeoffs did you make? 
 
