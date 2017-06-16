@@ -28,7 +28,7 @@ Subjects: Programming, Ruby, Technology
 
 There are 4 endpoints that each return some data in json format.
 
-* /search - This endpoint takes some input in the form "&#60;type&#62;:&#60;term&#62;" and returns a list of books with their associated authors and subjects
+* /search - This endpoint takes some input in the form "&#60;type&#62;:&#60;term&#62;" and returns a list of books with their associated authors and subjects. So "t:program" would do a search on the books table and find all books that start with "Program" (or "program"...it's case insensitive) and "s:ruby" would find all the subjects that started with "Ruby"
 * /by_title - This endpoint takes no input and returns a list of books organized by book title
 * /by_author - This endpoint takes no input and returns a list of books organized by author
 * /by_subject - This endpoint takes no input and returns a list of books organized by subject
