@@ -54,7 +54,7 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 ## Requirements
 
-1. The Nile app is very sparse right now. We need to make it pretty.  There is a mock in the docs directory that will help make Nile beautiful.
+1. The Nile app is very sparse right now. We need to make it pretty.  There are two mocks in the docs directory that will help make Nile beautiful. The first (nile.png) is how the page should look after initial load. The second (nile_results.png) is how it should look after a search has been made and results returned.
 
 2. The three lists of books are empty (Books by Title, Books by Author, Books by Subject).  When the page loads, fetch the data from the backend and display it in the appropriate sections.
 
@@ -62,7 +62,7 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.
 
-5. Write a quick two or three paragraph summary about how you implemented things and why? What tradeoffs did you make. What are some other choices that you could have made?
+5. Write a quick two or three paragraph summary about how you implemented things and why? What tradeoffs did you make? What are some other choices that you could have made?
 
 ## Tips
 
@@ -83,6 +83,10 @@ It's always important to know how you are going to be evaluated.  What we are go
 2. Does the Nile application work the way it should based on the Requirements section?
 
 3. Is the code well organized and does it follow traditional javascript coding conventions?
+
+4. Bells and Whistles. If there is time, what were you able to add. For example, the fonts in the mock are located here: https://fonts.google.com/specimen/Noto+Sans and http://fontawesome.io/assets/font-awesome-4.7.0.zip.
+
+5. Your summary statement. Do your choices make sense? Do you explain them well? Are we left with a lot of open questions?
 
 ## Support
 
