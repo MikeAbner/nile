@@ -58,7 +58,7 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 2. The three lists of books are empty (Books by Title, Books by Author, Books by Subject).  When the page loads, fetch the data from the backend and display it in the appropriate sections.
 
-3. The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed! When that happens you should call the appropriate endpoint and display the results of the search.
+3. The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed (it's the favorite feature of our CEO). When that happens you should call the appropriate endpoint and display the results of the search.
 
 4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.
 
@@ -72,11 +72,11 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 3. Don't mess with app/views/layouts/application.html.erb or you might end up deep in the bowels of Rails trying to troubleshoot
 
-4. Feel free to add any additional javascript or css files if you want, but know that you might have to fight with Rails alittle to get them working.
+4. Feel free to add any additional javascript or css files if you want, but know that you might have to fight with Rails a little to get them working.
 
 ## Evaluation
 
-It's always important to know how you are going to be evaluated.  What we are going to look for are pretty straightforward.
+It's always important to know how you are going to be evaluated.  What we look for is pretty straightforward.
 
 1. Does the layout match the mock as closely as possible? Is the CSS well organized?
 
