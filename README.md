@@ -26,6 +26,8 @@ Title: The Pragmatic Programmer
 Authors: Dave Thomas, Andy Hunt
 Subjects: Programming, Ruby, Technology
 
+You can see a list of the books, subjects, and authors in seeds.rb.
+
 There are 4 endpoints that each return some data in json format.
 
 * /search - This endpoint takes some input in the form "&#60;type&#62;:&#60;term&#62;" and returns a list of books with their associated authors and subjects. So "t:program" would do a search on the books table and find all books that start with "Program" (or "program"...it's case insensitive) and "s:ruby" would find all the subjects that started with "Ruby"
@@ -36,7 +38,7 @@ There are 4 endpoints that each return some data in json format.
 The homepage of the app has been pre-configured to load some javascript and css. You should be able to modify those files in place and have the changes reflected on the homepage without any extra work.
 
 You can find the javascript file in app/assets/javascripts/home.js
-You can find the stylesheet file in app/assets/stylesheets/home.css
+You can find the stylesheet file in app/assets/stylesheets/home.css.scss.
 
 ## Setup
 
@@ -46,11 +48,9 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 3. Run "bundle install" to install Rails and all it's dependencies.
 
-4. Set up the database with "rake db:create" and then "rake db:migrate" and then "rake db:seed"
-
 5. Start your rails app with "rails s"
 
-6. Navigate to http://localhost:3000 and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to /by_title, /by_author, /by_subject to make sure data is being returned.
+6. Navigate to <http://localhost:3000> and view the Nile application in all it's glory. You can also test to make sure the backend is working by navigating to <http://localhost:3000/by_title>, <http://localhost:3000/by_author>, <http://localhost:3000/by_subject> to see the data being retuned.
 
 ## Requirements
 
@@ -60,23 +60,23 @@ You can find the stylesheet file in app/assets/stylesheets/home.css
 
 3. The search box does not work! It's supposed to execute a search when the user enters the correct search request and presses enter.  We don't want any buttons on this page, so make sure the search box can respond to the enter key being pressed (it's the favorite feature of our CEO). When that happens you should call the appropriate endpoint and display the results of the search.
 
-4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.
+4. After every search is complete, you should add what was searched to the search results sections. Each entry in that section should also list the number of search results returned for that search. You should allow the user to click on that item to re-execute the search.  The history doesn't need to be persisted between page reloads.
 
-5. Write a quick two or three paragraph summary about how you implemented things and why? What tradeoffs did you make? What are some other choices that you could have made?
+5. Write a two or three paragraph summary about how you implemented things things, and why. What are some other choices that you could have made? What tradeoffs did you make? 
 
 ## Tips
 
-1. Feel free to completely rewrite the provided HTML in app/views/home/index.html if you would do something differently.
+1. Feel free to completely rewrite the provided HTML in app/views/home/index.html.erb if you would do something differently.
 
-2. Feel free to completely rewrite the CSS that is provided in app/assets/stylesheets/home.css.
+2. Feel free to completely rewrite the CSS that is provided in app/assets/stylesheets/home.css.scss.
 
 3. Don't mess with app/views/layouts/application.html.erb or you might end up deep in the bowels of Rails trying to troubleshoot
 
-4. Feel free to add any additional javascript or css files if you want, but know that you might have to fight with Rails a little to get them working.
+4. Feel free to add any additional javascript or css files if you want. You can add them to /app/assets/javascripts/ and /app/assets/stylesheets. Rails can often have issues with adding new files for css/javascipt. Don't try to fight rails. We won't count all your code in two files against you.
 
 ## Evaluation
 
-It's always important to know how you are going to be evaluated.  What we look for is pretty straightforward.
+What we will look for are pretty straightforward.
 
 1. Does the layout match the mock as closely as possible? Is the CSS well organized?
 
@@ -84,12 +84,12 @@ It's always important to know how you are going to be evaluated.  What we look f
 
 3. Is the code well organized and does it follow traditional javascript coding conventions?
 
-4. Bells and Whistles. If there is time, what were you able to add. For example, the fonts in the mock are located here: https://fonts.google.com/specimen/Noto+Sans and http://fontawesome.io/assets/font-awesome-4.7.0.zip.
+4. Bells and Whistles. If there is time, how can you improve on the bookstore? For example, the fonts in the mock are located here: https://fonts.google.com/specimen/Noto+Sans and http://fontawesome.io/assets/font-awesome-4.7.0.zip. 
 
-5. Your summary statement. Do your choices make sense? Do you explain them well? Are we left with a lot of open questions?
+5. Your summary statement. Are your choices sensible, and well explained?
 
 ## Support
 
-We recognize that there might be questions. Please feel free to email mike@homelight.com to ask for clarifications about the requirements. I'm happy to fill in more detail there. I won't offer any help getting things set up unless you find something specific about the actual backend code that isn't working. There are plenty of resources about getting ruby and rails installed and running. There are also plenty of good guides about the basics of Rails, but you shouldn't need to know much of that to make the frontend shine!
+We recognize that there might be questions. Please feel free to email mike@homelight.com to ask for clarifications about the requirements. I'm happy to fill in more detail there. I won't offer any help getting things set up unless, you find something specific about the actual backend code that isn't working. There are plenty of resources about getting ruby and rails installed and running. There are also plenty of good guides about the basics of Rails, but you shouldn't need to know much of that to make the frontend shine!
 
 

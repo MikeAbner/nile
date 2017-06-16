@@ -1,7 +1,7 @@
 class Search
 
   def execute type, term
-    puts "TYPE: '#{type}'"
+    puts "TYPE: '#{type}', term: #{term}"
     case type
     when "t" then search_by_title(term)
     when "a" then search_by_author(term)
